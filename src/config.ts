@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Maximilian Leitenstern",
-  title: "Software Engineer",
+  title: "Software Engineer | Research Associate",
   description: "Portfolio website of Maximilian Leitenstern",
   accentColor: "#ffffff",
   social: {
