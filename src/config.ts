@@ -1,13 +1,12 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Maximilian Leitenstern",
+  title: "Software Engineer",
+  description: "Portfolio website of Maximilian Leitenstern",
+  accentColor: "#0f121d",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "maxi.leitenstern@gmail.com",
+    linkedin: "https://www.linkedin.com/in/maximilian-leitenstern-a8a4551b1/",
+    github: "https://github.com/mleitenstern",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
@@ -25,13 +24,6 @@ export const siteConfig = {
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
   ],
