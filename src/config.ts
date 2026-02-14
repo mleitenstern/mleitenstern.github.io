@@ -58,9 +58,7 @@ export const siteConfig = {
       degree: "Doctor of Philosophy in Mechanical Engineering",
       dateRange: "2023 - 2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Research on Localization, Mapping and SLAM for autonomous racecars",
       ],
     },
     {
@@ -68,9 +66,16 @@ export const siteConfig = {
       degree: "Master of Science in Mechanical Engineering",
       dateRange: "2021 - 2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Master thesis topic: HD-Mapping for Autonomous Driving: Multi-Information Fusion for a Scalable Mapping Pipeline",
+        "Semster thesis topic: Development of a Vehicle Model for the Categorization of Road Conditions with Regard to Driving Comfort",
+      ],
+    },
+    {
+      school: "University of California, San Diego",
+      degree: "Master of Science in Mechanical Engineering",
+      dateRange: "2022 - 2022",
+      achievements: [
+        "Semster abroad",
       ],
     },
     {
@@ -78,9 +83,7 @@ export const siteConfig = {
       degree: "Bachelor of Science in Mechanical Engineering",
       dateRange: "2017 - 2021",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Thesis Topic: Implementation of an Unscented Kalman Filter for the Estimation of the Tire-Road Fristion Potential of an Autonomous Racecar",
       ],
     },
   ],
