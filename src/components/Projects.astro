@@ -36,13 +36,13 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                       {...linkProps}
                       class={`block relative p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl text-white transition-all duration-300 ${
                         project.link
-                          ? "hover:bg-[#111] hover:shadow-xl hover:border-[#222] hover:-translate-y-1"
+                          ? "hover:bg-[#222] hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
                           : ""
                       }`}
-                      style={{ background: '#000', border: '1px solid #000' }}
+                      style={{ background: '#000', border: '1px solid #fff' }}
                     >
                       {project.link && (
-                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center rounded-full text-white transition-all duration-300 group-hover:bg-[#222]" style={{ background: '#000' }}>
+                        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center rounded-full text-white transition-all duration-300 group-hover:bg-[#333]" style={{ background: '#000' }}>
                           <svg
                             class="w-4 h-4 sm:w-4.5 sm:h-4.5 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                             fill="none"
@@ -83,7 +83,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             {project.skills.map((skill) => (
                               <span
                                 class={`px-2.5 sm:px-3 py-1 sm:py-1.5 text-white rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
-                                  project.link ? "group-hover:bg-[#222]" : ""
+                                  project.link ? "group-hover:bg-[#333]" : ""
                                 }`}
                                 style={{ background: '#000' }}
                               >

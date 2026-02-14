@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Passionate software engineer for real-world deployment of autonomous systems, specialized on Localization, Mapping and SLAM. Experienced in C++ and Python, with a strong background in mechanical engineering. Dedicated to advancing robotics through innovative software solutions.",
-  skills: ["C++", "Python", "LaTeX", "Git", "ROS2", "Docker", "", "Docker"],
+  skills: ["C++", "Python", "LaTeX", "Git", "ROS2", "Docker"],
   projects: [
     {
       name: "TUM Autonomous Motorsport",
