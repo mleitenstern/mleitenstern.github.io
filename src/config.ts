@@ -9,7 +9,6 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/maximilian-leitenstern-a8a4551b1/",
     github: "https://github.com/mleitenstern",
     scholar: "https://scholar.google.de/citations?user=uDeiLWcAAAAJ&hl=de&oi=ao",
-    researchgate: "https://www.researchgate.net/profile/Maximilian_Leitenstern",
   },
   aboutMe:
     "I'm a passionate software engineer for real-world deployment of autonomous systems, specialized on Localization, Mapping and SLAM. I'm experienced in C++ and Python, and have a strong background in mechanical engineering.",
