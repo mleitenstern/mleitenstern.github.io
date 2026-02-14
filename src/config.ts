@@ -8,6 +8,8 @@ export const siteConfig = {
     email: "maxi.leitenstern@gmail.com",
     linkedin: "https://www.linkedin.com/in/maximilian-leitenstern-a8a4551b1/",
     github: "https://github.com/mleitenstern",
+    scholar: "https://scholar.google.de/citations?user=uDeiLWcAAAAJ&hl=de&oi=ao",
+    researchgate: "https://www.researchgate.net/profile/Maximilian_Leitenstern",
   },
   aboutMe:
     "Passionate software engineer for real-world deployment of autonomous systems, specialized on Localization, Mapping and SLAM. Experienced in C++ and Python, with a strong background in mechanical engineering. Dedicated to advancing robotics through innovative software solutions.",
