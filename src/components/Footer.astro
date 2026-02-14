@@ -99,7 +99,8 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Google Scholar"
-            class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+            class="text-gray-400 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            style={`--accent-color: ${siteConfig.accentColor}`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -112,11 +113,11 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               stroke-linecap="round"
               stroke-linejoin="round"
               class="h-6 w-6"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
-                <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
-              </svg>
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" />
+              <path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" />
+            </svg>
           </a>
         </div>
       </div>
