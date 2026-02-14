@@ -62,6 +62,16 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                         </li>
                       ))}
                     </ul>
+                    {exp.youtubeId && (
+                    <div class="mt-6 aspect-video w-full overflow-hidden rounded-lg border border-gray-800">
+                      <iframe
+                        src={`https://www.youtube.com/embed/${exp.youtubeId}`}
+                        class="w-full h-full"
+                        allowfullscreen
+                        loading="lazy"
+                      ></iframe>
+                    </div>
+                  )}
                   </div>
                 </div>
               ))}

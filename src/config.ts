@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Maximilian Leitenstern",
-  title: "Software Engineer | Research Associate",
+  title: "Software Engineer | Research Scientist",
   description: "Portfolio website of Maximilian Leitenstern",
   accentColor: "#ffffff",
   backgroundColor: "#000000",
@@ -12,7 +12,7 @@ export const siteConfig = {
     researchgate: "https://www.researchgate.net/profile/Maximilian_Leitenstern",
   },
   aboutMe:
-    "Passionate software engineer for real-world deployment of autonomous systems, specialized on Localization, Mapping and SLAM. Experienced in C++ and Python, with a strong background in mechanical engineering. Dedicated to advancing robotics through innovative software solutions.",
+    "I'm a passionate software engineer for real-world deployment of autonomous systems, specialized on Localization, Mapping and SLAM. I'm experienced in C++ and Python, and have a strong background in mechanical engineering.",
   skills: ["C++", "Python", "LaTeX", "Git", "ROS2", "Docker"],
   projects: [
     {
@@ -28,6 +28,7 @@ export const siteConfig = {
       company: "Chair of Automotive Technology",
       title: "Research Associate",
       dateRange: "Oct 2023 - Present",
+      youtubeId: "aPf3bVXzkFA",
       bullets: [
         "Research Areas: Localization, Mapping, SLAM for autonomous racecars",
         "Projects: TUM Autonomous Motorsport",
@@ -37,6 +38,7 @@ export const siteConfig = {
       company: "BMW Group",
       title: "Working Student",
       dateRange: "Apr 2021 - Jul 2022",
+      youtubeId: "",
       bullets: [
         "Research on electric motors and batteries for electric vehicles",
         "Implemented data analysis pipelines using Python",
@@ -46,6 +48,7 @@ export const siteConfig = {
       company: "TUfast e.V.",
       title: "Head of Suspension & Development Engineer",
       dateRange: "Oct 2018 - August 2021",
+      youtubeId: "VlFc91C2YRQ",
       bullets: [
         "Concept development for racecar eb019",
         "Leading a team of 10+ members in the suspension department",
