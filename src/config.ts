@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Maximilian Leitenstern",
   title: "Software Engineer",
   description: "Portfolio website of Maximilian Leitenstern",
-  accentColor: "#162555",
+  accentColor: "#131212",
   social: {
     email: "maxi.leitenstern@gmail.com",
     linkedin: "https://www.linkedin.com/in/maximilian-leitenstern-a8a4551b1/",
